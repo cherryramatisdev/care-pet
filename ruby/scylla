@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require 'dry/cli'
+require_relative 'lib/cli/cli'
+
+Dry::CLI.new(CLI).call
